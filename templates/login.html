@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> login </title>
+</head>
+<body>
+    <h1> login below {{ username }} </h1>
+    <form action="/login" method="POST">
+        <p> username </p>
+        <input name="username" placeholder="enter your username">
+
+        <p> password </p>
+        <input name="password" placeholder="enter your password">
+        <button> login </button>
+    </form>
+    <p> Don't have an account? </p>
+    <a href="/register"> register here </a>
+
+    
+</body>
+</html>
